@@ -12,7 +12,7 @@ Poco:enable_pdf=False
 Poco:enable_util=True
 Poco:enable_net=True
 Poco:enable_netssl=True
-Poco:enable_netssl_win=True
+Poco:enable_netssl_win=False
 Poco:enable_crypto=True
 Poco:enable_data=False
 Poco:enable_data_sqlite=False
@@ -61,6 +61,9 @@ boost:without_thread=False
 boost:without_timer=True
 boost:without_type_erasure=True
 boost:without_wave=True
+boost:skip_lib_rename=True
 
 [generators]
 cmake_multi
+cmake_paths
+cmake_find_package
